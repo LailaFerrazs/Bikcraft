@@ -1,0 +1,25 @@
+.header {
+    background: #000000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.linkprimario {
+    display: flex;
+    gap: 40px;
+    color: #ffffff;
+}
+
+.linkprimario a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    align-self: center;
+    line-height: 32px;
+}

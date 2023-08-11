@@ -1,1 +1,4 @@
-@import "./header.css"
+@import "./header.css";
+
+/* Estilos Globais */
+@import "./global.css";
