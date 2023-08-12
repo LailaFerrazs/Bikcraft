@@ -1,3 +1,27 @@
 .introducao-bg {
     background: #000000;
 }
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.introducao-conteudo {
+    align-self: center;
+}
+
+.introducao-conteudo h1 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.introducao-conteudo p {
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.imagem-over img {
+    margin-bottom: -100px;
+    border-radius: 4px;
+}
