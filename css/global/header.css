@@ -1,33 +1,29 @@
-.header {
+.header-bg {
     background: #000000;
 }
 
-.header-container {
+.header {
     display: flex;
     justify-content: space-between;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .linkprimario {
     display: flex;
     gap: 40px;
-    color: #ffffff;
     flex-wrap: wrap;
 }
 
 .linkprimario a {
     text-decoration: none;
     color: #ffffff;
-    font-size: 18px;
     align-self: center;
     line-height: 32px;
 }
 
-@media (max-width: 1000px) {
-    .header-container {
-        display: flex;
+@media (max-width: 800px) {
+    .header {
         flex-direction: column;
         gap: 30px;
     }

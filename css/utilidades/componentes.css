@@ -1,0 +1,19 @@
+.container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.botao {
+    display: inline-block;
+    padding: 16px 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #260033;
+    background: linear-gradient(to bottom, #FA00FF, #D20CF2);
+    font: 600 1.125rem/1.35 "Poppins", sans-serif;
+    border-radius: 4px;
+}
