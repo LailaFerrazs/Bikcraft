@@ -2,6 +2,10 @@ h1, h2, h3, p {
     margin: 0px;
 }
 
+a {
+    text-decoration: none;
+}
+
 ul, li {
     list-style: none;
     padding: 0px;
