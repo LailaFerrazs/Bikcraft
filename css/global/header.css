@@ -14,6 +14,7 @@
     display: flex;
     gap: 40px;
     color: #ffffff;
+    flex-wrap: wrap;
 }
 
 .linkprimario a {
@@ -22,4 +23,16 @@
     font-size: 18px;
     align-self: center;
     line-height: 32px;
+}
+
+@media (max-width: 1000px) {
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .linkprimario {
+        justify-content: center;
+        gap: 25px;
+    }
 }

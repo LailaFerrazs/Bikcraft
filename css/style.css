@@ -1,4 +1,7 @@
-@import "./header.css";
-
 /* Estilos Globais */
-@import "./global.css";
+@import "../css/global/header.css";
+@import "../css/global/global.css";
+@import "../css/global/footer.css";
+
+/* Estilos Home */
+@import "../css/home/introducao.css"
