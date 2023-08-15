@@ -1,3 +1,14 @@
 .tecnologia-bg {
     background: #111111;
 }
+
+.tecnologia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.imagem-tecnologia img {
+    height: 100%;
+    width: 100%;
+}
