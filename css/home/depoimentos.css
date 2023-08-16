@@ -1,0 +1,40 @@
+.depoimento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: var(--cor-p1);
+}
+
+.depoimento-conteudo {
+    background: var(--cor-p1);
+    align-self: center;
+}
+
+.depoimento-conteudo p {
+    padding: 50px 180px;
+   font-family: Merriweather;
+   position: relative;
+}
+
+.depoimento-conteudo p::before {
+    content: "";
+    background: url(/img/dec/top-left-p.svg);
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    top: -200px;
+    left: 0px;
+}
+
+.depoimento-conteudo p::after {
+    content: "";
+    background: url(/img/dec/bottom-right-p.svg);
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    bottom: -220px;
+    right: 0px;
+}
+
+.depoimento-conteudo span {
+    padding-left: 170px;
+}
