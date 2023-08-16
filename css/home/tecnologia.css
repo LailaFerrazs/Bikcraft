@@ -8,6 +8,11 @@
     gap: 40px;
 }
 
+.tecnologia-conteudo {
+    padding-top: 100px;
+    padding-bottom: 130px;
+  }
+
 .imagem-tecnologia img {
     height: 100%;
     width: 100%;
@@ -17,7 +22,6 @@
 
 .tecnologia-conteudo > span {
     display: block;
-    padding-top: 100px;
     padding-bottom: 20px;
 }
 
@@ -36,7 +40,7 @@
 
 .tecnologia-vantagens {
     display: flex;
-    gap: 40px;
+    gap: 50px;
 }
 
 .tecnologia-vantagens img {
