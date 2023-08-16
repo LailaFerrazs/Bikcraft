@@ -11,4 +11,40 @@
 .imagem-tecnologia img {
     height: 100%;
     width: 100%;
+    object-fit: cover;
+    object-position: left;
+}
+
+.tecnologia-conteudo > span {
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.tecnologia-conteudo h2 {
+    padding-bottom: 30px;
+}
+
+.tecnologia-conteudo > p {
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+.tecnologia-conteudo a {
+    padding-bottom: 80px;
+}
+
+.tecnologia-vantagens {
+    display: flex;
+    gap: 40px;
+}
+
+.tecnologia-vantagens img {
+    padding-bottom: 8px;
+    width: 24px;
+}
+
+.tecnologia-vantagens h3 {
+    padding-bottom: 15px;
+    font-weight: bold;
 }
