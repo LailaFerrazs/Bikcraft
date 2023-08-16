@@ -13,6 +13,11 @@
 @import "../css/bicicletas/bicicletas.css";
 @import "../css/bicicletas/bicicletaslista.css";
 
+/* Seguro */
+@import "../css/seguros/perguntas.css";
+@import "../css/seguros/seguros.css";
+@import "../css/seguros/vantagens.css";
+
 /* Utilidades */
 @import "../css/utilidades/animacao.css";
 @import "../css/utilidades/componentes.css";
