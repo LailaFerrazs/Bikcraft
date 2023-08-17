@@ -9,5 +9,11 @@
 
 .bicicletas {
     display: grid;
+    gap: 50px;
+}
+
+.bicicletas-item {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
 }
