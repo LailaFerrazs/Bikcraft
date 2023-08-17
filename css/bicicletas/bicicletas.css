@@ -1,0 +1,13 @@
+.titulo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.titulo p {
+    text-transform: uppercase;
+}
+
+.bicicletas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

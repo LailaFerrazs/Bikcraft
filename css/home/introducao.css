@@ -1,5 +1,5 @@
 .introducao-bg {
-    background: #000000;
+    background: var(--cor-11);
 }
 
 .introducao {

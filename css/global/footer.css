@@ -42,3 +42,9 @@
 .footer p {
     grid-column: 1/-1;
 }
+
+@media (max-width: 800px) {
+    .footer {
+        gap: 50px;
+    }
+}

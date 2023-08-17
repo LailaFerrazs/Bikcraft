@@ -22,3 +22,7 @@ body {
     font-family: Poppins;
     margin: 0px;
 }
+
+* {
+    border: solid red 2px;
+}
